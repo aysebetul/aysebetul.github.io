@@ -10,7 +10,7 @@ BCI is a system that controls a robot, computer, etc. by brain activities. It co
 
 Active BCI is a system that modifies brain responses while a participant performs an explicit task without any stimulus. For instance, in the motor imagery BCI systems, brain activities collected when the participant imagine to perform a motor task. Differently, in reactive BCI the participant exposed to an stimuli and brain activities are collected while the participant performs the task with given stimuli. P300 speller can be example of reactive BCIs. Finally in the passive BCI, participant doesn’t perform any specific task but their mental states, emotional states are detected from brain activities. 
 
-![_config.yml]({{ site.baseurl }}/images/bci_types.png){width=250}
+![_config.yml]({{ site.baseurl }}/images/bci_types.png){:height="250px"}
 
 ### Recording Brain Activities:
 
@@ -24,7 +24,7 @@ Neurons communicate each other using electrical and chemical signals. Messages t
 
 When the information flow through the axon, a current is occurred and accordingly potential and electrical field arise. 
 
-![_config.yml]({{ site.baseurl }}/images/generator_eeg.png){width=250}
+![_config.yml]({{ site.baseurl }}/images/generator_eeg.png){:height="250px"}
 
 One neuron generate small amount of electrical activity. However when a group of neurons are simultaneously active the electrical activity will be enough to be measured. Electroencephalogram (EEG) which is discovered by the German psychiatrist Hans Berger in 1929, is a technology to measure the potential using the electrodes which are placed on the scalp. The basic components of the EEG device are the electrodes, the signal amplifier and the computer to monitor signal. Electrodes are placed on the scalp in a certain order. A conductive gel is used to provide conductivity between the scalp and the electrodes. The pyramidal cells which are parallel with each other and normal to the cortical surface are suggested to be the generators of the EEG. When the group of neurons are activated, the signal is propagated through scalp and detected by electrodes. The measured electrical potential by the electrodes are send to the amplifier.
 
