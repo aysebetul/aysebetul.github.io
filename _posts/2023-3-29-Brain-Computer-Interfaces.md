@@ -10,7 +10,7 @@ BCI is a system that controls a robot, computer, etc. by brain activities. It co
 
 Active BCI is a system that modifies brain responses while a participant performs an explicit task without any stimulus. For instance, in the motor imagery BCI systems, brain activities collected when the participant imagine to perform a motor task. Differently, in reactive BCI the participant exposed to an stimuli and brain activities are collected while the participant performs the task with given stimuli. P300 speller can be example of reactive BCIs. Finally in the passive BCI, participant doesn’t perform any specific task but their mental states, emotional states are detected from brain activities. 
 
-![_config.yml]({{ site.baseurl }}/images/bci_types.png){:height="100px" width="100px"}
+![_config.yml]({{ site.baseurl }}/images/bci_types.png){scale:0.5}
 
 ### Recording Brain Activities:
 
