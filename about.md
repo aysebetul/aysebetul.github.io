@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hey there! I am Ayşe Betül.. I am a researcher and doing my PhD in the field of deep learning, machine learning and its applications on neuroscience. 
+I am currently working on a Brain-Computer Interface (BCI) project and try to get solutions its sub-steps using deep learning approaches.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[aysebetulyuce at gmail com](mailto:aysebetulyuce@gmail.com)
