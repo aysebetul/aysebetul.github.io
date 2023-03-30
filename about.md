@@ -9,4 +9,4 @@ I am currently working on a Brain-Computer Interface (BCI) project and try to ge
 
 ### Contact me
 
-[aysebetulyuce at gmail com](mailto:aysebetulyuce@gmail.com)
+[aysebetulyuce at gmail com]
