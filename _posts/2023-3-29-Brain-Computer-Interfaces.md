@@ -20,7 +20,7 @@ There are various ways to record brain activities non-invasively. Functional ima
 
 ### Generators of EEG:
 
-Neurons communicate each other using electrical and chemical signals. Messages travel through neuron as electrical signal which is known as action potential. When it reaches to the dentrits of neuron the message is transformed from action potential to chemical signals by releasing neurotransmitters. The release of these chemicals trigger an action potential in the following neuron. So that the message is conveyed to the next neuron. 
+Neurons communicate each other using electrical and chemical signals. Messages travel through neuron as electrical signal which is known as action potential. When it reaches to the dendrites of neuron the message is transformed from action potential to chemical signals by releasing neurotransmitters. The release of these chemicals trigger an action potential in the following neuron. So that the message is conveyed to the next neuron. 
 
 When the information flow through the axon, a current is occurred and accordingly potential and electrical field arise. 
 
