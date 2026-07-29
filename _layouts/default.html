@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <nav>
+      <a href="{{ site.baseurl }}/about">Home</a>
+      <a href="{{ site.baseurl }}/about">Publications</a>
+      <a href="{{ site.baseurl }}/">Blog</a>
+      <a href="{{ site.baseurl }}/">CV</a>
+    </nav>
+    
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
@@ -26,12 +33,11 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
-          <nav>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/about">Publications</a>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            
-          </nav>
+      <!--<p align="center">-->
+      <center>
+      [ <a href="#publications">About</a> |<a href="#research_interests">Research Interests</a> | <a href="#news">News</a> ]
+      </center><br>
+          
         </header>
       </div>
     </div>
