@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{% if page.title and page.title != "Home" %}{{ page.title }} · {% endif %}{{ site.name }}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
     {% include meta.html %}
-    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
+
   <body>
-    <header class="site-header">
-      <div class="shell academic-header">
-        <aside class="profile-column">
-          <a href="{{ site.baseurl }}/" class="profile-photo">
-            <img src="{{ site.baseurl }}{{ site.avatar }}" alt="Portrait of {{ site.name }}">
-          </a>
-          <div class="profile-icons" aria-label="Profile links">
-            {% include svg-icons.html %}
-            <a class="cv-icon" href="{{ site.baseurl }}/cv/" aria-label="Curriculum vitae">CV</a>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <div class="site-avatar-block">
+            <a href="{{ site.baseurl }}/" class="site-avatar">
+              <img src="{{ site.avatar }}" alt="Portrait of {{ site.name }}" />
+            </a>
+
+            <div class="site-profile-links" aria-label="Profile links">
+              {% include svg-icons.html %}
+            </div>
           </div>
-        </aside>
 
-        <div class="identity">
-          <p class="identity-kicker">AI Researcher · PhD Candidate</p>
-          <h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-          <p class="identity-email">
-            <a href="mailto:aysebetulyuce@gmail.com">aysebetulyuce@gmail.com</a>
-          </p>
-          <p class="identity-location">Magdeburg, Germany</p>
-        </div>
+          <div class="site-info">
+            <h1 class="site-name">
+              <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+            </h1>
+            <p class="site-description">{{ site.description }}</p>
+            <p class="site-email">
+              <a href="mailto:aysebetulyuce@gmail.com">aysebetulyuce@gmail.com</a>
+            </p>
+          </div>
+        </header>
 
-      </div>
-
-      <div class="shell nav-row">
-        <nav aria-label="Main navigation">
+        <nav class="site-navigation" aria-label="Main navigation">
           <a href="{{ site.baseurl }}/">Home</a>
           <a href="{{ site.baseurl }}/publications/">Publications</a>
           <a href="{{ site.baseurl }}/blog/">Blog</a>
           <a href="{{ site.baseurl }}/cv/">CV</a>
         </nav>
       </div>
-    </header>
-    <main class="{% unless page.title == 'Home' %}shell page-main{% endunless %}">
+    </div>
+
+    <div id="main" role="main" class="container">
       {{ content }}
-    </main>
-    <footer class="site-footer">
-      <div class="shell">
-        <p>© {{ site.time | date: "%Y" }} Ayşe Betül Yüce</p>
-        <div>
-          <a href="https://github.com/aysebetul">GitHub</a>
-          <a href="https://www.linkedin.com/in/ayse-betul-yuce-21999131/">LinkedIn</a>
-          <a href="{{ site.baseurl }}/cv/">CV</a>
-        </div>
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          <p>© {{ site.time | date: "%Y" }} {{ site.name }}</p>
+        </footer>
       </div>
-    </footer>
+    </div>
+
     {% include analytics.html %}
   </body>
 </html>
