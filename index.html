@@ -4,11 +4,19 @@ layout: default
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 40px;">
 
-  <img
-    src="{{ site.avatar }}"
-    alt="Photo of {{ site.name }}"
-    style="width: 220px; height: auto;"
-  />
+  <div style="width: 220px; flex-shrink: 0; text-align: center;">
+  
+    <img
+      src="{{ site.avatar }}"
+      alt="Photo of {{ site.name }}"
+      style="display: block; width: 220px; height: auto;"
+    />
+  
+    <div style="margin-top: 12px;">
+      {% include svg-icons.html %}
+    </div>
+  
+  </div>
 
   <div style="text-align: justify;">
     <p>
