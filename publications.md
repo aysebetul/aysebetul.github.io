@@ -28,9 +28,8 @@ permalink: /publications/
     </a>
 
     <!-- Authors -->
-    <p style="margin: 8px 0;">
-      <strong>Ayşe Betül Yüce</strong>, Sebastian Stober
-    </p>
+    <p style="margin: 8px 0;"><strong>Ayşe Betül Yüce</strong>, Sebastian Stober</p>
+    <p style="margin: 8px 0;">10th Graz Brain-Computer Interface Conference</p>
 
     <!-- BibTeX -->
     <details style="margin-top: 8px;">
@@ -72,9 +71,8 @@ permalink: /publications/
     </a>
 
     <!-- Authors -->
-    <p style="margin: 8px 0;">
-      <strong>Ayşe Betül Yüce</strong>, Yusuf Yaslan
-    </p>
+    <p style="margin: 8px 0;"><strong>Ayşe Betül Yüce</strong>, Yusuf Yaslan</p>
+    <p style="margin: 8px 0;">International Conference on Systems, Signals and Image Processing <strong>IWSSIP 2016</strong></p>
 
     <!-- BibTeX -->
     <details style="margin-top: 8px;">
@@ -120,9 +118,8 @@ permalink: /publications/
     </a>
 
     <!-- Authors -->
-    <p style="margin: 8px 0;">
-      <strong>Ayşe Betül Yüce</strong>, Chris Joey Leffler, Sarun Varghese, Myra Spiliopoulou, Sebastian Stober
-    </p>
+    <p style="margin: 8px 0;"><strong>Ayşe Betül Yüce</strong>, Chris Joey Leffler, Sarun Varghese, Myra Spiliopoulou, Sebastian Stober</p>
+    <p style="margin: 8px 0;">Workshop on Foundation Models for Structured Data <strong>ICML2026</strong></p>
 
     <!-- BibTeX -->
     <details style="margin-top: 8px;">
