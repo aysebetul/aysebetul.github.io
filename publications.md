@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 
 permalink: /publications/
 ---
@@ -50,6 +50,52 @@ permalink: /publications/
 
 </div>
 
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
+  <!-- Small paper image -->
+  <img
+    src="{{ site.baseurl }}/images/disagreement-paper.png"
+    alt="Paper preview"
+    style="width: 120px; height: auto;"
+  />
+  
+  <!-- Paper information -->
+  <div>
+
+    <!-- Clickable paper title -->
+    <a
+      href="[https://arxiv.org/abs/2605.29754](https://ieeexplore.ieee.org/abstract/document/7502740)"
+      target="_blank"
+      rel="noopener noreferrer"
+      style="font-weight: bold;"
+    >
+      A disagreement based co-active learning method for sleep stage classification
+    </a>
+
+    <!-- Authors -->
+    <p style="margin: 8px 0;">
+      <strong>Ayşe Betül Yüce</strong>, Yusuf Yaslan
+    </p>
+
+    <!-- BibTeX -->
+    <details style="margin-top: 8px;">
+      <summary style="cursor: pointer; color: #1772d0;">
+        BibTeX
+      </summary>
+    
+      <pre style="white-space: pre-wrap; margin-top: 10px;"><code>@article{yuce2016disagreement,
+      author= {Ayse Betul Yuce and Yusuf Yaslan},
+      booktitle={2016 International Conference on Systems, Signals and Image Processing (IWSSIP)}, 
+      title={A disagreement based co-active learning method for sleep stage classification}, 
+      year={2016},
+      pages={1-4}}
+
+    }</code></pre>
+    </details>
+
+  </div>
+
+</div>
+
 <h2>Workshops</h2>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
@@ -84,7 +130,7 @@ permalink: /publications/
         BibTeX
       </summary>
     
-      <pre style="white-space: pre-wrap; margin-top: 10px;"><code>@article{yuce2026benchmarking,
+      <pre style="white-space: pre-wrap; margin-top: 10px;"><code>@article{yuce2026tsfm,
         author = {Ayse Betul Yuce and Chris Joey Leffler and Sarun Varghese and Myra Spiliopoulou and Sebastian Stober},
         title= {Temporal Feature Extractors in {EEG} Foundation Models: A Controlled Comparison Including a Pretrained Time-Series Model},
         booktitle = {Proceedings of the 2nd {ICML} Workshop on Foundation Models for Structured Data},
