@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: 
-permalink: /home/
+permalink: /
 ---
 
 <div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 40px;">
