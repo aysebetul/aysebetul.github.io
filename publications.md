@@ -120,7 +120,7 @@ permalink: /publications/
 
     <!-- Authors -->
     <p style="margin: 8px 0;"><strong>Ayşe Betül Yüce</strong>, Chris Joey Leffler, Sarun Varghese, Myra Spiliopoulou, Sebastian Stober</p>
-    <p style="margin: 8px 0;">Workshop on Foundation Models for Structured Data <strong>ICML2026</strong></p>
+    <p style="margin: 8px 0;">Workshop on Foundation Models for Structured Data</p>
     <p style="margin: 8px 0;"><strong>ICML2026</strong></p>
     
     <!-- BibTeX -->
