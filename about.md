@@ -1,12 +1,31 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /home/
 ---
 
-Hey there! I am Ayşe Betül.. I am a researcher and doing my PhD in the field of deep learning, machine learning and its applications on neuroscience. 
-I am currently working on a Brain-Computer Interface (BCI) project and try to get solutions its sub-steps using deep learning approaches.
+<div style="display: flex; align-items: flex-start; gap: 30px; margin-bottom: 40px;">
 
-### Contact me
+  <img
+    src="{{ site.avatar }}"
+    alt="Photo of {{ site.name }}"
+    style="width: 220px; height: auto;"
+  />
 
-[aysebetulyuce at gmail com]
+  <div>
+    <h2>About Me</h2>
+
+    <p>
+      I am an AI researcher and PhD candidate at Otto von Guericke University
+      Magdeburg. My research focuses on EEG foundation models, deep learning,
+      brain-computer interfaces, and brain decoding.
+    </p>
+
+    <p>
+      I am particularly interested in learning meaningful representations from
+      neural signals and developing reliable AI methods for understanding human
+      mental states.
+    </p>
+  </div>
+
+</div>
