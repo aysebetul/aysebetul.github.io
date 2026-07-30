@@ -9,7 +9,7 @@ permalink: /publications/
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
   <!-- Small paper image -->
   <img
-    src="{{ site.baseurl }}/images/positional-encoding-paper.png"
+    src="{{ site.baseurl }}/images/pubs/positional-encoding-paper.png"
     alt="Paper preview"
     style="width: 120px; height: auto;"
   />
@@ -53,7 +53,7 @@ permalink: /publications/
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
   <!-- Small paper image -->
   <img
-    src="{{ site.baseurl }}/images/disagreement-paper.png"
+    src="{{ site.baseurl }}/images/pubs/disagreement-paper.png"
     alt="Paper preview"
     style="width: 120px; height: auto;"
   />
@@ -63,7 +63,7 @@ permalink: /publications/
 
     <!-- Clickable paper title -->
     <a
-      href="[https://arxiv.org/abs/2605.29754](https://ieeexplore.ieee.org/abstract/document/7502740)"
+      href="https://ieeexplore.ieee.org/abstract/document/7502740"
       target="_blank"
       rel="noopener noreferrer"
       style="font-weight: bold;"
@@ -101,7 +101,7 @@ permalink: /publications/
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
   <!-- Small paper image -->
   <img
-    src="{{ site.baseurl }}/images/temporal-paper.png"
+    src="{{ site.baseurl }}/images/pubs/temporal-paper.png"
     alt="Paper preview"
     style="width: 120px; height: auto;"
   />
@@ -111,7 +111,7 @@ permalink: /publications/
 
     <!-- Clickable paper title -->
     <a
-      href="[https://arxiv.org/abs/2605.29754](https://openreview.net/pdf?id=oKlirtyeF7)"
+      href="https://openreview.net/pdf?id=oKlirtyeF7"
       target="_blank"
       rel="noopener noreferrer"
       style="font-weight: bold;"
