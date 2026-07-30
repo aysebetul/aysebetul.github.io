@@ -4,7 +4,7 @@ title:
 permalink: /publications/
 ---
 
-<h2>Conference Workshops</h2>
+<h2>Conference</h2>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
   <!-- Small paper image -->
@@ -50,6 +50,7 @@ permalink: /publications/
 
 </div>
 
+<h2>Workshops</h2>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
   <!-- Small paper image -->
