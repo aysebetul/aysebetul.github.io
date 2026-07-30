@@ -9,9 +9,9 @@ permalink: /publications/
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
   <!-- Small paper image -->
   <img
-    src="{{ site.baseurl }}/images/pubs/positional-encoding-paper.png"
+    src="{{ site.baseurl }}/images/pubs/block_pos_enc.jpeg"
     alt="Paper preview"
-    style="width: 120px; height: auto;"
+    style="width: 140px; height: auto;"
   />
   
   <!-- Paper information -->
@@ -53,9 +53,9 @@ permalink: /publications/
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
   <!-- Small paper image -->
   <img
-    src="{{ site.baseurl }}/images/pubs/disagreement-paper.png"
+    src="{{ site.baseurl }}/images/pubs/block_disagreement.png"
     alt="Paper preview"
-    style="width: 120px; height: auto;"
+    style="width: 140px; height: auto;"
   />
   
   <!-- Paper information -->
@@ -101,9 +101,9 @@ permalink: /publications/
 <div style="display: flex; align-items: flex-start; gap: 20px; margin-bottom: 35px;">
   <!-- Small paper image -->
   <img
-    src="{{ site.baseurl }}/images/pubs/temporal-paper.png"
+    src="{{ site.baseurl }}/images/pubs/block_tsfm.png"
     alt="Paper preview"
-    style="width: 120px; height: auto;"
+    style="width: 140px; height: auto;"
   />
   
   <!-- Paper information -->
