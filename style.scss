@@ -299,13 +299,13 @@ footer {
 }
 
 .cv-navigation a {
-  font-size: 0.9em;
+  font-size: 0.7em;
   text-decoration: none;
 }
 
 .cv-navigation a:not(:last-child)::after {
   content: "|";
-  margin: 0 14px;
+  margin: 0 10px;
   color: #cccccc;
 }
 
