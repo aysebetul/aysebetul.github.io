@@ -45,6 +45,7 @@ permalink: /cv/
       <div class="education-date">September 2013</div>
       <div class="education-degree">M.S. in Computer Engineering</div>
       <div class="education-university">Istanbul Technical University, Türkiye</div>
+      <p>Thesis: A disagreement based co-active learning method for sleep stage classification</p>
       <p>GPA: 3.13/4.00</p>
     </article>
 
@@ -52,6 +53,7 @@ permalink: /cv/
       <div class="education-date">June 2008</div>
       <div class="education-degree">B.S. in Computer Engineering</div>
       <div class="education-university">Fatih University, Türkiye</div>
+      <p>Thesis: Unmanned Aerial Vehicle Ground Station Supervisory Control and Data Monitoring GUI Design and Implementation</p>
       <p>GPA: 3.68/4.00</p>
     </article>
 
