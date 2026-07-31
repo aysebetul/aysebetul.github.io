@@ -292,7 +292,7 @@ footer {
 .cv-navigation {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 20px;
+  row-gap: 10px;
   margin-bottom: 35px;
   padding-bottom: 15px;
   border-bottom: 1px solid #dddddd;
@@ -303,20 +303,10 @@ footer {
   text-decoration: none;
 }
 
-.cv-navigation a:hover {
-  text-decoration: underline;
-}
-
-/* Prevent the heading from sitting too close to the top after clicking */
-.cv-navigation + h2,
-#education,
-#experience,
-#summer-schools,
-#technical-skills,
-#projects,
-#teaching,
-#awards {
-  scroll-margin-top: 25px;
+.cv-navigation a:not(:last-child)::after {
+  content: "|";
+  margin: 0 14px;
+  color: #cccccc;
 }
 
 
