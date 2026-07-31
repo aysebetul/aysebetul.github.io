@@ -36,7 +36,9 @@ permalink: /cv/
       <div class="education-degree">Doctoral Studies in Computer Engineering</div>
       <div class="education-university">Istanbul Technical University, Türkiye</div>
       <p>GPA: 3.50/4.00</p>
-      <p>Completed 24 credits of doctoral coursework in 2017–18 and successfully passed the doctoral qualification examination.</p>
+      <p>Completed 24 credits of doctoral coursework in 2017–18 and successfully
+  passed the doctoral qualification examination before continuing my doctoral
+  research at Otto von Guericke University Magdeburg.</p>
     </article>
 
     <article class="education-item">
