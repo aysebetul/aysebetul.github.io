@@ -19,29 +19,48 @@ permalink: /cv/
   </a>
 </nav>
 
-<h2 id="education">Education</h2>
+<section class="cv-section" id="education">
+  <h2>Education</h2>
+  <p class="cv-note"><em>In Türkiye, GPA is calculated on a 4.0 scale, with 4.0 being the highest possible grade.</em></p>
 
-<div class="education-timeline">
+  <div class="education-timeline">
+    <article class="education-item">
+      <div class="education-date">February 2023 – Present</div>
+      <div class="education-degree">PhD in Computer Science</div>
+      <div class="education-university">AI Lab, Otto von Guericke University Magdeburg, Germany</div>
+      <p>Research areas: deep learning, machine learning, EEG foundation models, and brain–computer interfaces.</p>
+    </article>
 
-  <div class="education-item">
-    <div class="education-date">February 2023 – Present</div>
+    <article class="education-item">
+      <div class="education-date">February 2017</div>
+      <div class="education-degree">Doctoral Studies in Computer Engineering</div>
+      <div class="education-university">Istanbul Technical University, Türkiye</div>
+      <p>GPA: 3.50/4.00</p>
+      <p>Completed 24 credits of doctoral coursework in 2017–18 and successfully passed the doctoral qualification examination.</p>
+    </article>
 
-    <div class="education-degree">
-      PhD in Computer Science
-    </div>
+    <article class="education-item">
+      <div class="education-date">September 2013</div>
+      <div class="education-degree">M.S. in Computer Engineering</div>
+      <div class="education-university">Istanbul Technical University, Türkiye</div>
+      <p>GPA: 3.13/4.00</p>
+    </article>
 
-    <div class="education-university">
-      Otto von Guericke University Magdeburg, Germany
-    </div>
+    <article class="education-item">
+      <div class="education-date">June 2008</div>
+      <div class="education-degree">B.S. in Computer Engineering</div>
+      <div class="education-university">Fatih University, Türkiye</div>
+      <p>GPA: 3.68/4.00</p>
+    </article>
 
-    <p>
-      AI Lab<br>
-      Research areas: EEG foundation models, deep learning,
-      brain–computer interfaces, and brain decoding.
-    </p>
+    <article class="education-item">
+      <div class="education-date">June 2008</div>
+      <div class="education-degree">Double Major in Electrical and Electronics Engineering</div>
+      <div class="education-university">Fatih University, Türkiye</div>
+      <p>GPA: 2.75/4.00</p>
+    </article>
   </div>
-
-</div>
+</section>
 
 <h2 id="experience">Research &amp; Work Experience</h2>
 
