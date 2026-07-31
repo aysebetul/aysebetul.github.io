@@ -289,61 +289,6 @@ footer {
 @import "svg-icons";
 
 
-
-
-.education-timeline {
-  position: relative;
-  margin-top: 25px;
-  padding-left: 32px;
-}
-
-/* Vertical connecting line */
-.education-timeline::before {
-  content: "";
-  position: absolute;
-  top: 7px;
-  bottom: 7px;
-  left: 6px;
-  width: 2px;
-  background-color: #cccccc;
-}
-
-.education-item {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-/* Timeline dot */
-.education-item::before {
-  content: "";
-  position: absolute;
-  top: 6px;
-  left: -32px;
-  width: 12px;
-  height: 12px;
-  background-color: #1772d0;
-  border: 3px solid white;
-  border-radius: 50%;
-  box-shadow: 0 0 0 2px #1772d0;
-}
-
-.education-date {
-  color: #666666;
-  font-size: 0.9em;
-  margin-bottom: 4px;
-}
-
-.education-degree {
-  font-weight: bold;
-  margin-bottom: 3px;
-}
-
-.education-university {
-  font-style: italic;
-  margin-bottom: 6px;
-}
-
-
 .cv-navigation {
   display: flex;
   flex-wrap: wrap;
@@ -372,4 +317,56 @@ footer {
 #teaching,
 #awards {
   scroll-margin-top: 25px;
+}
+
+
+.education-timeline {
+  position: relative;
+  margin-top: 25px;
+  padding-left: 32px;
+}
+
+.education-timeline::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 6px;
+  width: 2px;
+  background: #cccccc;
+}
+
+.education-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.education-item::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -32px;
+  width: 12px;
+  height: 12px;
+  box-sizing: border-box;
+  background: #1772d0;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #1772d0;
+}
+
+.education-date {
+  margin-bottom: 4px;
+  color: #667477;
+  font-size: 0.9em;
+}
+
+.education-degree {
+  margin-bottom: 3px;
+  font-weight: 700;
+}
+
+.education-university {
+  margin-bottom: 6px;
+  font-style: italic;
 }
