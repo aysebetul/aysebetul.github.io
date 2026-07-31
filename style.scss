@@ -342,3 +342,34 @@ footer {
   font-style: italic;
   margin-bottom: 6px;
 }
+
+
+.cv-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-bottom: 35px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.cv-navigation a {
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.cv-navigation a:hover {
+  text-decoration: underline;
+}
+
+/* Prevent the heading from sitting too close to the top after clicking */
+.cv-navigation + h2,
+#education,
+#experience,
+#summer-schools,
+#technical-skills,
+#projects,
+#teaching,
+#awards {
+  scroll-margin-top: 25px;
+}
