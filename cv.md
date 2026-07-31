@@ -364,7 +364,7 @@ permalink: /cv/
 
 <section class="cv-section cv-download-bottom" id="download-cv">
   <h2>Download CV</h2>
-  <p>For the complete application-ready version, view or download my CV as a PDF.</p>
+  <p>For the complete version, view or download my CV as a PDF.</p>
   <a class="button button-dark" href="{{ site.baseurl }}/Ayse_Betul_Yuce_CV.pdf" target="_blank" rel="noopener noreferrer">
     View / Download PDF CV
   </a>
