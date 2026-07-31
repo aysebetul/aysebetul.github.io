@@ -287,3 +287,58 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+
+
+.education-timeline {
+  position: relative;
+  margin-top: 25px;
+  padding-left: 32px;
+}
+
+/* Vertical connecting line */
+.education-timeline::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  bottom: 7px;
+  left: 6px;
+  width: 2px;
+  background-color: #cccccc;
+}
+
+.education-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+/* Timeline dot */
+.education-item::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -32px;
+  width: 12px;
+  height: 12px;
+  background-color: #1772d0;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #1772d0;
+}
+
+.education-date {
+  color: #666666;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+}
+
+.education-degree {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.education-university {
+  font-style: italic;
+  margin-bottom: 6px;
+}
