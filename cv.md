@@ -128,24 +128,26 @@ permalink: /cv/
     <article class="cv-item">
       <div class="cv-date">January 2025 – Present</div>
       <h3>Enhancing Human–AI Collaboration through Speech-Based Mental-State Detection</h3>
-      <p class="cv-context">OVGU AI Lab · Magdeburg</p>
-      <p>Developing and evaluating EEG foundation models for mental-state detection during spoken interaction with AI systems, with a focus on transferable representations and explainable deep-learning methods.</p>
+      <p class="cv-context">OVGU AILab · Magdeburg</p>
+      <ul>
+        <li>Developing and evaluating EEG foundation models for mental-state detection during spoken interaction with AI systems, with a focus on transferable representations and explainable deep-learning methods.</li>
+      </ul>
     </article>
 
     <article class="cv-item">
       <div class="cv-date">February – December 2024</div>
       <h3>SpineInteractive</h3>
-      <p class="cv-context">OVGU AI Lab and Sport Science · Magdeburg</p>
+      <p class="cv-context">OVGU AILab and Sport Science · Magdeburg</p>
       <ul>
-        <li>Developed machine-learning methods for an AI-supported digital-health application for people with spinal diseases.</li>
-        <li>Analysed smartphone accelerometer and gyroscope data for gait-event detection, feature extraction, and feature-importance analysis.</li>
+        <li>Contributed to the design of a smartphone-based data-collection experiment for analysing gait in people with spinal conditions.</li>
+        <li>Processed accelerometer and gyroscope signals, detected gait events, and extracted features for subsequent analysis.</li>
       </ul>
     </article>
 
     <article class="cv-item">
       <div class="cv-date">March 2020 – December 2022</div>
       <h3>EEG Source Localization</h3>
-      <p class="cv-context">OVGU AI Lab · Magdeburg</p>
+      <p class="cv-context">OVGU AILab · Magdeburg</p>
       <ul>
         <li>Studied forward and inverse EEG modelling using LSTM, CNN, and transformer architectures implemented in PyTorch.</li>
         <li>Designed a brain–computer interface experiment using Psychtoolbox.</li>
@@ -159,31 +161,41 @@ permalink: /cv/
     <article class="cv-entry">
       <h3>Hybrid Song Recommendation System</h3>
       <p class="cv-organization">Web Mining course project, Istanbul Technical University · February–May 2018</p>
-      <p>Combined matrix factorization and content-based filtering on the Million Song Dataset and Echo Nest Taste Profile subset; implemented in Python.</p>
+      <ul>
+        <li>Combined matrix factorization and content-based filtering on the Million Song Dataset and Echo Nest Taste Profile subset; implemented in Python.</li>
+      </ul>
     </article>
 
     <article class="cv-entry">
       <h3>Emotion Recognition Using Multichannel EEG Signals</h3>
       <p class="cv-organization">Statistical Pattern Analysis and Classification course project, Istanbul Technical University · September–December 2017</p>
-      <p>Compared handcrafted time- and frequency-domain EEG features with a CNN operating on signal spectrograms; implemented in MATLAB, Python, and TensorFlow.</p>
+      <ul>
+        <li>Compared handcrafted time- and frequency-domain EEG features with a CNN operating on signal spectrograms; implemented in MATLAB, Python, and TensorFlow.</li>
+      </ul>
     </article>
 
     <article class="cv-entry">
       <h3>A Disagreement-Based Co-Active Learning Method for Sleep-Stage Classification</h3>
       <p class="cv-organization">Master’s thesis, Istanbul Technical University · December 2014–June 2016</p>
-      <p>Developed a co-active learning framework using empirical-mode-decomposition and frequency-domain feature views, evaluated on the Sleep-EDF database.</p>
+      <ul>
+        <li>Developed a co-active learning framework using empirical-mode-decomposition and frequency-domain feature views, evaluated on the Sleep-EDF database.</li>
+      </ul>
     </article>
 
     <article class="cv-entry">
       <h3>Unmanned Aerial Vehicle Ground-Station GUI</h3>
       <p class="cv-organization">Bachelor’s final project, Fatih University · June 2012–June 2013</p>
-      <p>Designed and implemented a C#/.NET ground-station interface and parsed GPS data to monitor UAV position.</p>
+      <ul>
+        <li>Designed and implemented a C#/.NET ground-station interface and parsed GPS data to monitor UAV position.</li>
+      </ul>
     </article>
 
     <article class="cv-entry">
       <h3>Image Colorization Using Local Binary Patterns</h3>
       <p class="cv-organization">Pattern Recognition course project, Fatih University · September–December 2012</p>
-      <p>Applied machine-learning methods in WEKA to predict image colour from pixel position, grayscale intensity, and local binary patterns.</p>
+      <ul>
+        <li>Applied machine-learning methods in WEKA to predict image colour from pixel position, grayscale intensity, and local binary patterns.</li>
+      </ul>
     </article>
   </details>
 </section>
