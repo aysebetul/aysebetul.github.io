@@ -288,38 +288,70 @@ footer {
 @import "highlights";
 @import "svg-icons";
 
-
-.cv-navigation {
+nav.cv-navigation {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 10px 0;
   float: none;
-  margin-top: 0;
-  margin-bottom: 35px;
-  padding-bottom: 15px;
+  width: 100%;
+  margin: 0 0 35px;
+  padding: 0 0 15px;
   border-bottom: 1px solid #dddddd;
+  font-family: $helveticaNeue;
   font-size: 16px;
-}
+  line-height: 1.5;
 
-.cv-navigation a {
-  margin-left: 0;
-  color: $darkGray;
-  font-size: 16px;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
+  > a {
+    margin: 0;
+    padding: 2px 0;
+    color: $darkGray;
+    font-size: inherit;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.2s ease;
 
-.cv-navigation a:hover,
-.cv-navigation a:focus-visible {
-  color: $blue;
-}
+    &:hover,
+    &:focus,
+    &:active {
+      color: #1772d0 !important;
+      text-decoration: none;
+    }
 
-.cv-navigation a:not(:last-child)::after {
-  content: "|";
-  margin: 0 10px;
-  color: #cccccc;
-}
+    &:focus-visible {
+      color: #1772d0 !important;
+      outline: 2px solid #1772d0;
+      outline-offset: 3px;
+      border-radius: 2px;
+    }
 
+    &:not(:last-child)::after {
+      content: "|";
+      display: inline-block;
+      margin: 0 10px;
+      color: #cccccc;
+    }
+  }
+
+  @include mobile {
+    display: flex;
+    float: none;
+    margin: 0 0 30px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    text-align: left;
+
+    > a {
+      margin: 0;
+
+      &:not(:last-child)::after {
+        margin: 0 8px;
+      }
+    }
+  }
+}
 
 .education-timeline {
   position: relative;
