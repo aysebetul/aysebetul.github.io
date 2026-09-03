@@ -304,10 +304,14 @@ footer {
 .cv-navigation a {
   margin-left: 0;
   color: $darkGray;
-  font-size: inherit;
-  font-weight: 400;
-  letter-spacing: 0.2px;
+  font-size: 16px;
   text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.cv-navigation a:hover,
+.cv-navigation a:focus-visible {
+  color: $blue;
 }
 
 .cv-navigation a:not(:last-child)::after {
