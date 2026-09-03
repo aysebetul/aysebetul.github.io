@@ -11,7 +11,7 @@ permalink: /cv/
   <a href="#publications">Selected Publications</a>
   <a href="#teaching">Teaching</a>
   <a href="#professional-development">Professional Development</a>
-  <a href="#skills">Skills</a>
+  <a href="#technical-skills">Technical Skills</a>
   <a href="#awards">Awards</a>
   <a href="{{ site.baseurl }}/files/Ayse_Betul_Yuce_CV.pdf"
      target="_blank"
@@ -70,7 +70,7 @@ permalink: /cv/
     <article class="education-item">
       <div class="education-date">January 2025 – Present</div>
       <div class="education-degree">AI Researcher</div>
-      <div class="education-university">AI Lab · Otto von Guericke University Magdeburg</div>
+      <div class="education-university">AILab · Otto von Guericke University Magdeburg</div>
       <p>Developing and evaluating EEG foundation models for speech-based mental-state detection within the AI CoWorking Lab project, with a focus on transferable representations and explainable deep-learning methods.</p>
     </article>
 
@@ -84,7 +84,7 @@ permalink: /cv/
     <article class="education-item">
       <div class="education-date">2020 – 2022</div>
       <div class="education-degree">Visiting Researcher</div>
-      <div class="education-university">DAAD–TGU Research Program · AI Lab, Otto von Guericke University Magdeburg</div>
+      <div class="education-university">DAAD–TGU Research Program · AILab, Otto von Guericke University Magdeburg</div>
       <p>Investigated EEG source localization with CNN, LSTM, and transformer architectures and designed a brain–computer interface experiment using Psychtoolbox.</p>
     </article>
 
@@ -272,32 +272,40 @@ permalink: /cv/
   </div>
 </section>
 
-<section class="cv-section" id="skills">
-  <h2>Skills</h2>
+<section class="cv-section" id="technical-skills">
+  <h2>Technical Skills</h2>
 
-  <dl class="skills-list">
-    <div>
-      <dt>Deep learning</dt>
-      <dd>PyTorch, TensorFlow, Keras; CNNs, LSTMs, and transformers</dd>
-    </div>
-    <div>
-      <dt>Machine learning and data</dt>
-      <dd>Python, scikit-learn, pandas, NumPy, and Matplotlib</dd>
-    </div>
-    <div>
-      <dt>Signals and time series</dt>
-      <dd>EEG, IMU, time-series analysis, Psychtoolbox, and MATLAB</dd>
-    </div>
-    <div>
-      <dt>Programming</dt>
-      <dd>Python, MATLAB, Java, C/C++, C#, PHP, and SQL</dd>
-    </div>
-    <div>
-      <dt>Languages</dt>
-      <dd>Turkish (native), English (fluent), and German (B2.2)</dd>
-    </div>
-  </dl>
+  <ul class="technical-skills-list">
+    <li>
+      <strong>Programming:</strong>
+      Python, MATLAB, C++, C#, Java, SQL
+    </li>
+
+    <li>
+      <strong>Frameworks and Libraries:</strong>
+      PyTorch, TensorFlow, Keras, MNE-Python, scikit-learn, NumPy, pandas, Matplotlib
+    </li>
+
+    <li>
+      <strong>Deep Learning Methods:</strong>
+      Foundation models, transformers, self-supervised learning,
+      representation learning, transfer learning, CNNs, and LSTMs
+    </li>
+
+    <li>
+      <strong>Signal and Time-Series Analysis:</strong>
+      EEG and IMU data, signal preprocessing, feature extraction,
+      and gait-event detection
+    </li>
+
+    <li>
+      <strong>Languages:</strong>
+      Turkish (native), English (fluent), German (B1, TELC)
+    </li>
+  </ul>
 </section>
+
+
 
 <section class="cv-section" id="awards">
   <h2>Scholarships &amp; Awards</h2>
@@ -306,7 +314,7 @@ permalink: /cv/
     <article class="cv-item">
       <div class="cv-date">2020, 2021, 2022</div>
       <h3>DAAD–TGU Research Scholarships</h3>
-      <p class="cv-context">Visiting research at AI Lab, Otto von Guericke University Magdeburg</p>
+      <p class="cv-context">Visiting research at AILab, Otto von Guericke University Magdeburg</p>
     </article>
 
     <article class="cv-item">
