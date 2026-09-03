@@ -66,56 +66,56 @@ permalink: /cv/
 <section class="cv-section" id="experience">
   <h2>Professional Experience</h2>
 
-  <div class="cv-timeline">
-    <article class="cv-item">
-      <div class="cv-date">January 2025 – Present</div>
-      <h3>AI Researcher</h3>
-      <p class="cv-context">AI Lab · Otto von Guericke University Magdeburg</p>
+  <div class="education-timeline">
+    <article class="education-item">
+      <div class="education-date">January 2025 – Present</div>
+      <div class="education-degree">AI Researcher</div>
+      <div class="education-university">AI Lab · Otto von Guericke University Magdeburg</div>
       <p>Developing and evaluating EEG foundation models for speech-based mental-state detection within the AI CoWorking Lab project, with a focus on transferable representations and explainable deep-learning methods.</p>
     </article>
 
-    <article class="cv-item">
-      <div class="cv-date">February 2024 – 2025</div>
-      <h3>AI Researcher</h3>
-      <p class="cv-context">Sport Science · Otto von Guericke University Magdeburg</p>
+    <article class="education-item">
+      <div class="education-date">February 2024 – 2025</div>
+      <div class="education-degree">AI Researcher</div>
+      <div class="education-university">Sport Science · Otto von Guericke University Magdeburg</div>
       <p>Analysed smartphone inertial-sensor data for gait-event detection and developed signal-processing, feature-engineering, and machine-learning workflows for the SpineInteractive project.</p>
     </article>
 
-    <article class="cv-item">
-      <div class="cv-date">2020 – 2022</div>
-      <h3>Visiting Researcher</h3>
-      <p class="cv-context">DAAD–TGU Research Program · AI Lab, Otto von Guericke University Magdeburg</p>
+    <article class="education-item">
+      <div class="education-date">2020 – 2022</div>
+      <div class="education-degree">Visiting Researcher</div>
+      <div class="education-university">DAAD–TGU Research Program · AI Lab, Otto von Guericke University Magdeburg</div>
       <p>Investigated EEG source localization with CNN, LSTM, and transformer architectures and designed a brain–computer interface experiment using Psychtoolbox.</p>
     </article>
 
-    <article class="cv-item">
-      <div class="cv-date">February 2015 – February 2024</div>
-      <h3>Research Assistant</h3>
-      <p class="cv-context">Department of Computer Science · Turkish-German University</p>
+    <article class="education-item">
+      <div class="education-date">February 2015 – February 2024</div>
+      <div class="education-degree">Research Assistant</div>
+      <div class="education-university">Department of Computer Science · Turkish-German University</div>
       <p>Contributed to research and supported courses in machine learning, artificial intelligence, intelligent systems, computer organization, and algorithms and data structures.</p>
     </article>
 
-    <article class="cv-item">
-      <div class="cv-date">July 2013 – January 2014</div>
-      <h3>Software Developer</h3>
-      <p class="cv-context"><a href="https://www.crypttech.com/">CRYPTTECH</a></p>
+    <article class="education-item">
+      <div class="education-date">July 2013 – January 2014</div>
+      <div class="education-degree">Software Developer</div>
+      <div class="education-university"><a href="https://www.crypttech.com/">CRYPTTECH</a></div>
       <ul>
         <li>Supported the development of customer relationship management software in C#.</li>
         <li>Contributed to the Android version of a data-loss-prevention project.</li>
       </ul>
     </article>
 
-    <article class="cv-item">
-      <div class="cv-date">June – July 2012</div>
-      <h3>Research Intern</h3>
-      <p class="cv-context">Fatih University</p>
+    <article class="education-item">
+      <div class="education-date">June – July 2012</div>
+      <div class="education-degree">Research Intern</div>
+      <div class="education-university">Fatih University</div>
       <p>Researched Zigbee modules, local positioning, and Kinect-based 3D mapping for an unmanned aerial vehicle project; designed ground-station class diagrams and parsed GPS data.</p>
     </article>
 
-    <article class="cv-item">
-      <div class="cv-date">June – July 2011</div>
-      <h3>Software Intern</h3>
-      <p class="cv-context">Tetaş Cyclops Information Technologies</p>
+    <article class="education-item">
+      <div class="education-date">June – July 2011</div>
+      <div class="education-degree">Software Intern</div>
+      <div class="education-university">Tetaş Cyclops Information Technologies</div>
       <p>Developed database applications using C#.</p>
     </article>
   </div>
@@ -341,28 +341,9 @@ permalink: /cv/
     margin-bottom: 1.5rem;
   }
 
-  .cv-timeline {
-    position: relative;
-    margin-left: 0.45rem;
-    padding-left: 2rem;
-    border-left: 2px solid #d8dde5;
-  }
-
   .cv-item {
     position: relative;
     margin: 0 0 2rem;
-  }
-
-  .cv-timeline > .cv-item::before {
-    content: "";
-    position: absolute;
-    top: 0.35rem;
-    left: calc(-2rem - 7px);
-    width: 12px;
-    height: 12px;
-    border: 2px solid #477dca;
-    border-radius: 50%;
-    background: #fff;
   }
 
   .cv-item:last-child {
@@ -452,3 +433,4 @@ permalink: /cv/
       margin-top: 0.25rem;
     }
   }
+</style>
