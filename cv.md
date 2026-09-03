@@ -26,7 +26,7 @@ permalink: /cv/
     <article class="education-item">
       <div class="education-date">February 2023 – Present</div>
       <div class="education-degree">PhD in Computer Science</div>
-      <div class="education-university">AI Lab, Otto von Guericke University Magdeburg, Germany</div>
+      <div class="education-university">AILab, Otto von Guericke University Magdeburg, Germany</div>
       <p>Research focus: foundation models and deep learning for time-series data, with EEG as the primary application domain.</p>
     </article>
 
@@ -77,7 +77,7 @@ permalink: /cv/
     <article class="education-item">
       <div class="education-date">February 2024 – 2025</div>
       <div class="education-degree">AI Researcher</div>
-      <div class="education-university">Sport Science · Otto von Guericke University Magdeburg</div>
+      <div class="education-university">AILab and Sport Science · Otto von Guericke University Magdeburg</div>
       <p>Analysed smartphone inertial-sensor data for gait-event detection and developed signal-processing, feature-engineering, and machine-learning workflows for the SpineInteractive project.</p>
     </article>
 
