@@ -292,14 +292,21 @@ footer {
 .cv-navigation {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 10px;
+  gap: 10px 0;
+  float: none;
+  margin-top: 0;
   margin-bottom: 35px;
   padding-bottom: 15px;
   border-bottom: 1px solid #dddddd;
+  font-size: 15px;
 }
 
 .cv-navigation a {
-  font-size: 0.7em;
+  margin-left: 0;
+  color: $darkGray;
+  font-size: inherit;
+  font-weight: 400;
+  letter-spacing: 0.2px;
   text-decoration: none;
 }
 
