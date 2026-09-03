@@ -13,9 +13,13 @@ permalink: /cv/
   <a href="#professional-development">Professional Development</a>
   <a href="#technical-skills">Technical Skills</a>
   <a href="#awards">Awards</a>
-  <a href="{{ site.baseurl }}/files/Ayse_Betul_Yuce_CV.pdf"
-     target="_blank"
-     rel="noopener noreferrer">Download CV</a>
+  <a
+    href="{{ site.baseurl }}/files/Ayse_Betul_Yuce_CV.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Download CV
+  </a>
 </nav>
 
 <section class="cv-section" id="education">
